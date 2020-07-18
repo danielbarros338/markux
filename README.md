@@ -1,17 +1,16 @@
-# MarkUx
-#### Ficticious enterprise website project (Single page application)
+# MarkUx9
+#### Site responsivo feito para uma empresa de Marketing (SPA)
 
+**Em Desenvolvimento**
 
-This website use:
+##### Tecnologias utilizadas:
 
- - HTML
- - CSS
+ - HTML 5
+ - CSS 3
  - Javascript
- - Bootstrap
+ - Bootstrap 4
  
-His idea is to be a website for the presentation of a fictitious marketink and technology company.
-It is responsive and by clicking on the "Empresa" and "Visao" anchors, they take you to the place where you have a text
-related.
+O site consegue se adaptar a qualquer tipo de tela de dispositivos diferentes. Suas seções **Empresa**, **Visão** e **Contato** levam a posições na página referente aos seus conteúdos e funcionalidades.
 
 #### Normal
 ![](https://i.imgur.com/6PpQDnF.gif)
