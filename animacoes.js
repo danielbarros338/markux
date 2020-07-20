@@ -12,8 +12,8 @@ window.addEventListener("scroll", function scrollCabecalho(){
 
 const banner = document.querySelectorAll(".banner");
 window.addEventListener("scroll", function scrollBanner(){
-    if(window.pageYOffset > 70) {
-        banner[0].style.transition = "1s";
+    if(window.pageYOffset > 50) {
+        banner[0].style.transition = "0.5s";
         banner[0].style.opacity = "1";
         banner[0].style.left = "0"
     }
@@ -30,11 +30,11 @@ const mux1 = document.querySelectorAll(".markuxfff");
 const mux2 = document.querySelectorAll(".markuxf000");
 window.addEventListener("scroll", function scrollImgs(){
     if(window.pageYOffset > 550) {
-        mux1[0].style.transition = "1.5s";
+        mux1[0].style.transition = "1s";
         mux1[0].style.opacity = "1";
     }
     if(window.pageYOffset > 1380) {
-        mux2[0].style.transition = "1.5s";
+        mux2[0].style.transition = "1s";
         mux2[0].style.opacity = "1";
     }
 })
@@ -42,8 +42,8 @@ window.addEventListener("scroll", function scrollImgs(){
 const empresa = document.querySelectorAll(".empresa");
 const visao = document.querySelectorAll(".visao");
 window.addEventListener("scroll", function scrollTxt(){
-    if(window.pageYOffset >200) {
-        empresa[0].style.transition = "1.5s";
+    if(window.pageYOffset >150) {
+        empresa[0].style.transition = "1s";
         empresa[0].style.opacity = "1";
     }
     if(window.pageYOffset > 1080) {
