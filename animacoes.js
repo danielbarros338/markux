@@ -42,7 +42,7 @@ window.addEventListener("scroll", function scrollImgs(){
 const empresa = document.querySelectorAll(".empresa");
 const visao = document.querySelectorAll(".visao");
 window.addEventListener("scroll", function scrollTxt(){
-    if(window.pageYOffset >250) {
+    if(window.pageYOffset >200) {
         empresa[0].style.transition = "1.5s";
         empresa[0].style.opacity = "1";
     }
