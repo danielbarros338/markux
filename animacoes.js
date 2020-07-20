@@ -1,7 +1,7 @@
 //scroll
 const cabec = document.querySelectorAll(".cabecalho");
 window.addEventListener("scroll", function scrollCabecalho(){
-    if(window.scrollY > 50) {
+    if(window.pageYOffset > 50) {
         cabec[0].style.transition = "0.5s";
         cabec[0].style.top = "-120px";
     }else{
@@ -12,26 +12,28 @@ window.addEventListener("scroll", function scrollCabecalho(){
 
 const banner = document.querySelectorAll(".banner");
 window.addEventListener("scroll", function scrollBanner(){
-    if(window.scrollY > 1) {
+    if(window.pageYOffset > 70) {
         banner[0].style.transition = "1s";
         banner[0].style.opacity = "1";
-        banner[0].style.left = "0";
+        banner[0].style.left = "0"
     }
-    if(window.scrollY > 1850){
+    if(window.pageYOffset > 2093){
         banner[1].style.transition = "1.5s";
         banner[1].style.opacity = "1";
-        banner[1].style.left = "0";
+        banner[1].style.left = "0"
     }
 })
+
+console.log(window.pageYOffset)
 
 const mux1 = document.querySelectorAll(".markuxfff");
 const mux2 = document.querySelectorAll(".markuxf000");
 window.addEventListener("scroll", function scrollImgs(){
-    if(window.scrollY > 550) {
+    if(window.pageYOffset > 550) {
         mux1[0].style.transition = "1.5s";
         mux1[0].style.opacity = "1";
     }
-    if(window.scrollY > 1380) {
+    if(window.pageYOffset > 1380) {
         mux2[0].style.transition = "1.5s";
         mux2[0].style.opacity = "1";
     }
@@ -40,11 +42,11 @@ window.addEventListener("scroll", function scrollImgs(){
 const empresa = document.querySelectorAll(".empresa");
 const visao = document.querySelectorAll(".visao");
 window.addEventListener("scroll", function scrollTxt(){
-    if(window.scrollY >250) {
+    if(window.pageYOffset >250) {
         empresa[0].style.transition = "1.5s";
         empresa[0].style.opacity = "1";
     }
-    if(window.scrollY > 1080) {
+    if(window.pageYOffset > 1080) {
         visao[0].style.transition = "2s";
         visao[0].style.left = "0";
         visao[0].style.opacity = "1";
