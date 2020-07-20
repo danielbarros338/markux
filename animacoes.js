@@ -1,7 +1,7 @@
 //scroll
 const cabec = document.querySelectorAll(".cabecalho");
 window.addEventListener("scroll", function scrollCabecalho(){
-    if(window.pageYOffset > 50) {
+    if(window.pageYOffset > 30) {
         cabec[0].style.transition = "0.5s";
         cabec[0].style.top = "-120px";
     }else{
@@ -12,7 +12,7 @@ window.addEventListener("scroll", function scrollCabecalho(){
 
 const banner = document.querySelectorAll(".banner");
 window.addEventListener("scroll", function scrollBanner(){
-    if(window.pageYOffset > 50) {
+    if(window.pageYOffset > 30) {
         banner[0].style.transition = "0.5s";
         banner[0].style.opacity = "1";
         banner[0].style.left = "0"
@@ -42,7 +42,7 @@ window.addEventListener("scroll", function scrollImgs(){
 const empresa = document.querySelectorAll(".empresa");
 const visao = document.querySelectorAll(".visao");
 window.addEventListener("scroll", function scrollTxt(){
-    if(window.pageYOffset >150) {
+    if(window.pageYOffset >70) {
         empresa[0].style.transition = "1s";
         empresa[0].style.opacity = "1";
     }
