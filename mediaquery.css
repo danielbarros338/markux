@@ -26,6 +26,12 @@
     .markUxImg{
         display: none;
     }
+
+    .fontMenu {
+        color: #494949 !important;
+        font-size: 1em
+    }
+
 }
 
 @media(min-width: 460px) {
@@ -55,6 +61,11 @@
 
     .markUxImg{
         display: none;
+    }
+
+    .fontMenu {
+        color: #494949 !important;
+        font-size: 1.1em
     }
 }
 
@@ -91,6 +102,11 @@
     .markUxImg{
         display: none;
     }
+
+    .fontMenu {
+        color: #494949 !important;
+        font-size: 1.2em
+    }
 }
 
 @media (min-width: 764px) {
@@ -121,5 +137,10 @@
 
     .markUxImg{
         display: flex;
+    }
+
+    .fontMenu {
+        color: #494949 !important;
+        font-size: 1.2em
     }
 }
