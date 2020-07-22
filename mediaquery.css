@@ -1,0 +1,125 @@
+@media(max-width: 460px) {
+    .companyDescription {
+        height: auto;
+        background-color: #222;
+        border-top-left-radius: 225px;
+    }
+
+    .visionDescription {
+        height: auto;
+        background-color: rgb(226, 124, 8);
+        border-top-right-radius: 225px;
+    }
+
+    #companyTitle,
+    #companyText,
+    #visionTitle,
+    #visionText {
+        color: #fff;
+    }
+
+    #companyText,
+    #visionText {
+        font-size: 1em;
+    }
+
+    .markUxImg{
+        display: none;
+    }
+}
+
+@media(min-width: 460px) {
+    .companyDescription {
+        height: auto;
+        background-color: #222;
+        border-top-left-radius: 200px;
+    }
+
+    .visionDescription {
+        height: auto;
+        background-color: rgb(226, 124, 8);
+        border-top-right-radius: 200px;
+    }
+
+    #companyTitle,
+    #companyText,
+    #visionTitle,
+    #visionText {
+        color: #fff;
+    }
+
+    #companyText,
+    #visionText {
+        font-size: 1em;
+    }
+
+    .markUxImg{
+        display: none;
+    }
+}
+
+@media(min-width: 640px) {
+    .companyDescription {
+        height: auto;
+        background-color: #222;
+        border-top-left-radius: 175px;
+    }
+
+    .visionDescription {
+        height: auto;
+        background-color: rgb(226, 124, 8);
+        border-top-right-radius: 175px;
+    }
+
+    #companyTitle,
+    #companyText,
+    #visionTitle,
+    #visionText {
+        color: #fff;
+    }
+
+    #companyText,
+    #visionText {
+        font-size: 1em;
+    }
+
+    #companyTitle,
+    #visionTitle {
+        font-weight: bold;
+    }
+
+    .markUxImg{
+        display: none;
+    }
+}
+
+@media (min-width: 764px) {
+
+    .companyDescription {
+        height: auto;
+        background-color: #222;
+        border-radius: 10px;
+    }
+
+    .visionDescription {
+        height: auto;
+        background-color: rgb(226, 124, 8);
+        border-radius: 10px;
+    }
+
+    #companyTitle,
+    #companyText,
+    #visionTitle,
+    #visionText {
+        color: #fff;
+    }
+
+    #companyText,
+    #visionText {
+        font-size: 1em;
+    }
+
+    .markUxImg{
+        display: flex;
+    }
+}

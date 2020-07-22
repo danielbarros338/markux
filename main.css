@@ -1,0 +1,20 @@
+body{
+    font-family:'Roboto', sans-serif;
+}
+
+.fontMenu {
+    color: #494949 !important;
+    font-size: 1.2em
+}
+
+.space{
+    height:5em;
+}
+
+.headerr {
+    box-shadow: 1px 0px 3px #000;
+    top: 0px;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+}
