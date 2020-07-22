@@ -29,7 +29,7 @@
 
     .fontMenu {
         color: #494949 !important;
-        font-size: 1em
+        font-size: 0.7em
     }
 
 }
@@ -78,7 +78,7 @@
 
     .visionDescription {
         height: auto;
-        background-color: rgb(226, 124, 8);
+        background-color: rgb(226, 124, 8);35
         border-top-right-radius: 175px;
     }
 
