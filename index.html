@@ -4,11 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MarkUx Tecnologia| Inovação na sua imagem</title>
+    <meta name="description" content="A MarkUx Tecnologia vai mudar sua forma de ver o marketing e a tecnologia.">
+    <meta name="author" content="Daniel Moura Barros">
+    <meta name="keywords" content="MarkUx, marketing, tecnologia, ux, ui">
+    <meta name="robots" content="index, follow">
+    <!--Facebook-->
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:url" content="https://danielbarros338.github.io/markux/"> <!--Change before publish-->
+    <meta property="og:title" content="MarkUx | Tecnologia e Inovação">
+    <meta property="og:description" content="A MarkUx Tecnologia vai mudar sua forma de ver o marketing e a tecnologia.">
+    <meta property="og:image" content="img/markUxcomlogo.jpeg">
+    <!--end-->
+    <title>MarkUx Tecnologia e Inovação</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="mediaquery.css">
+    <link rel="stylesheet" href="mediaquery.css" title="defaultStyle">
     <link rel="stylesheet" href="main.css">
 </head>
 
@@ -16,7 +27,7 @@
     <header>
         <nav class="headerr d-flex flex-nowrap nav nav-fill bg-white align-items-center border-bottom">
             <li class="d-flex nav-item justify-content-start">
-                <a class="nav-link" href="#"><img class="img-fluid" src="img/markux.png" alt=""></a>
+                <a class="nav-link" href="#" ><img class="img-fluid" src="img/markux.png" alt=""></a>
             </li>
             <li class="d-flex nav-item justify-content-end">
                 <a class="nav-link" href="#"><img class="img-fluid" src="img/Logo.png"></a>
@@ -28,23 +39,22 @@
 
 
     <div class="container-fluid">
-        <main>
-            <!--MENU-->
-            <nav>
-                <div class="d-flex flex-row justify-content-center mt-5">
-                    <nav class="navbar navbar-expand navbar-light mr-3 w-75 justify-content-center">
-                        <div
-                            class="menuStyle d-flex flex-nowrap nav navbar-nav d-flex w-100 justify-content-around shadow">
-                            <a class="fontMenu nav-item nav-link active font-weight-bold" href="#">Empresa</a>
-                            <a class="fontMenu nav-item nav-link active font-weight-bold" href="#">Visão</a>
-                            <a class="fontMenu nav-item nav-link active font-weight-bold" href="#">Contato</a>
-                        </div>
-                    </nav>
-                </div>
-            </nav>
-            <!--END MENU-->
+        <!--MENU-->
+        <nav>
+            <div class="d-flex flex-row justify-content-center mt-5">
+                <nav class="navbar navbar-expand navbar-light mr-3 w-75 justify-content-center">
+                    <div class="menuStyle d-flex flex-nowrap nav navbar-nav d-flex w-100 justify-content-around shadow">
+                        <a class="fontMenu nav-item nav-link active font-weight-bold" href="#companyTitle">Empresa</a>
+                        <a class="fontMenu nav-item nav-link active font-weight-bold" href="#visionTitle">Visão</a>
+                        <a class="fontMenu nav-item nav-link active font-weight-bold" href="#contact">Contato</a>
+                    </div>
+                </nav>
+            </div>
+        </nav>
+        <!--END MENU-->
 
-            <!--CAROUSSEL-->
+        <!--CAROUSSEL-->
+        <figure>
             <div class="d-flex flex-row mt-3 justify-content-center">
                 <div id="my-carousel" class="carousel slide shadow-lg" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -75,15 +85,16 @@
                     </a>
                 </div>
             </div>
-            <!--END CAROUSSEL-->
-
+        </figure>
+        <!--END CAROUSSEL-->
+        <main>
             <!--COMPANY DESCRIPTION-->
             <div class="companyDescription d-flex flex-row mt-5 mw-100">
                 <div class="col-md-5 d-flex align-items-center">
                     <img class="img-fluid ml-5 markUxImg" src="img/logoBranco.png">
                 </div>
                 <div class="col-9 col-md-5 offset-md-1 text-right mt-3">
-                    <section>
+                    <article>
                         <h4 id="companyTitle">A Empresa</h4>
                         <p id="companyText" class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit,
@@ -96,7 +107,7 @@
                             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
                             in
                             culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </section>
+                    </article>
                 </div>
             </div>
             <!--END COMPANY DESCRIPTION-->
@@ -110,7 +121,7 @@
             <!--VISION DESCRIPTION-->
             <div class="visionDescription d-flex flex-row mt-3 mw-100">
                 <div class="col-9 col-md-5 mt-3">
-                    <section>
+                    <article>
                         <h4 id="visionTitle">Nossa Visão</h4>
                         <p id="visionText" class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                             sed
@@ -123,7 +134,7 @@
                             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
                             in
                             culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </section>
+                    </article>
                 </div>
                 <div class="col-md-5 offset-1 align-items-center">
                     <img class="markUxImg img-fluid" src="img/markuxPB.png">
@@ -133,7 +144,7 @@
             <!--PROMOTIONAL IMAGE-->
             <div class="d-flex flex-row justify-content-center">
                 <div class="promoDiv">
-                    <img class="img-fluid" src="img/markUxcomlogo.jpeg" alt="">
+                    <img class="img-fluid" src="img/markUxcomlogo.jpeg" alt="Banner da MarkUx Tecnologia">
                 </div>
             </div>
             <!--END PROMOTIONAL IMAGE-->
@@ -141,7 +152,7 @@
             <div class="contact d-flex flex-row flex-wrap justify-content-center">
                 <div class="col-8">
                     <section>
-                        <h5 class="text-center mt-3">ENTRE EM CONTATO CONOSCO PELOS NÚMEROS:</h5>
+                        <h5 id="contact" class="text-center mt-3">ENTRE EM CONTATO CONOSCO PELOS NÚMEROS:</h5>
                         <div class="col-12 text-center tel">
                             <img class="img-fluid" src="img/whatsappIcon.png"> (21) 98315-9765<br>
                             <img class="img-fluid" src="img/whatsappIcon.png"> (21) 99496-9440<br>
