@@ -1,9 +1,9 @@
-body{
-    font-family:'Roboto', sans-serif;
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
-.space{
-    height:5em;
+.space {
+    height: 5em;
 }
 
 .headerr {
@@ -14,24 +14,45 @@ body{
     width: 100%;
 }
 
-.contact{
+.contact {
     background-color: #222;
     color: #fff;
 }
 
-.tel{
+.tel {
     font-size: 0.9em
 }
 
-.iconsMenu{
+.iconsMenu {
     position: fixed;
-    left: 0px;
+    left: 0em;
     width: 50px;
     z-index: 1000;
-    
+    padding: 2em;
+    background-color: #222;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
 }
 
-.icon{
+.icon {
     position: relative;
-    left: 10px;
+    right: 1.4em;
+}
+
+.btnHid {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 4em;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+    background-color: #222;
+    width:10px;
+}
+
+.backFront{
+    font-size: 2em;
+    color: #fff;
+    cursor: pointer;
+    left: 4px;
 }

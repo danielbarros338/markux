@@ -42,7 +42,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="cabec">
         <nav class="headerr d-flex flex-nowrap nav nav-fill bg-white align-items-center border-bottom">
             <li class="d-flex nav-item justify-content-start">
                 <a class="nav-link" href="#" ><img class="img-fluid" src="img/markux.png" alt=""></a>
@@ -62,8 +62,8 @@
             <div class="d-flex flex-row justify-content-center mt-5">
                 <nav class="navbar navbar-expand navbar-light mr-3 w-75 justify-content-center">
                     <div class="menuStyle d-flex flex-nowrap nav navbar-nav d-flex w-100 justify-content-around shadow">
-                        <a class="fontMenu nav-item nav-link active font-weight-bold" href="#companyTitle">Empresa</a>
-                        <a class="fontMenu nav-item nav-link active font-weight-bold" href="#visionTitle">Visão</a>
+                        <a class="fontMenu nav-item nav-link active font-weight-bold" href="#company">Empresa</a>
+                        <a class="fontMenu nav-item nav-link active font-weight-bold" href="#vision">Visão</a>
                         <a class="fontMenu nav-item nav-link active font-weight-bold" href="#contact">Contato</a>
                     </div>
                 </nav>
@@ -72,11 +72,15 @@
         <!--END MENU-->
 
         <div class="iconsMenu">
-            <a class="icon ml-2" href="https://api.whatsapp.com/send?phone=5521983159765"><img class="mb-5" src="img/wppIcon.png"></a>
-            <a class="icon ml-1" href="#"><img class="mb-5" src="img/facebookIcon.png"></a>
-            <a class="icon ml-2" href="https://www.instagram.com/mark.uxtec/"><img  src="img/instaIcon.png"></a>
+            <a class="icon ml-1" href="https://api.whatsapp.com/send?phone=5521983159765"><img class="mb-5 icons" src="img/wppIconWhite.png"></a>
+            <a class="icon" href="#"><img class="mb-5 icons" src="img/facebookIconWhite.png"></a>
+            <a class="icon" href="https://www.instagram.com/mark.uxtec/"><img class="icons" src="img/instaIconWhite.png"></a>
+                <div class="btnHid">
+                    <span class="backFront">|</span>
+                </div>
         </div>
 
+       
         <!--CAROUSSEL-->
         <figure>
             <div class="d-flex flex-row mt-3 justify-content-center">
@@ -113,7 +117,7 @@
         <!--END CAROUSSEL-->
         <main>
             <!--COMPANY DESCRIPTION-->
-            <div class="companyDescription d-flex flex-row mt-5 mw-100">
+            <div id="company" class="companyDescription d-flex flex-row mt-5 mw-100">
                 <div class="col-md-5 d-flex align-items-center">
                     <img class="img-fluid ml-5 markUxImg" src="img/logoBranco.png">
                 </div>
@@ -143,7 +147,7 @@
             </div>
             <!--END PROMOTIONAL IMAGE-->
             <!--VISION DESCRIPTION-->
-            <div class="visionDescription d-flex flex-row mt-3 mw-100">
+            <div id="vision" class="visionDescription d-flex flex-row mt-3 mw-100">
                 <div class="col-9 col-md-5 mt-3">
                     <article>
                         <h4 id="visionTitle">Nossa Visão</h4>
@@ -173,7 +177,7 @@
             </div>
             <!--END PROMOTIONAL IMAGE-->
             <!--CONTACT-->
-            <div class="contact d-flex flex-row flex-wrap justify-content-center">
+            <div id="contact" class="contact d-flex flex-row flex-wrap justify-content-center">
                 <div class="col-8 text-center mt-2">
                     <h5>Faça uma cotação conosco</h5>
                 </div>
