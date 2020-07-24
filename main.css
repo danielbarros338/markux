@@ -22,3 +22,16 @@ body{
 .tel{
     font-size: 0.9em
 }
+
+.iconsMenu{
+    position: fixed;
+    left: 0px;
+    width: 50px;
+    z-index: 1000;
+    
+}
+
+.icon{
+    position: relative;
+    left: 10px;
+}
