@@ -25,10 +25,11 @@ body {
 
 .iconsMenu {
     position: fixed;
+    top: 7em;
     left: 0em;
-    width: 50px;
+    width: 10px;
     z-index: 1000;
-    padding: 2em;
+    padding: 1.5em;
     background-color: #222;
     border-top-right-radius: 2em;
     border-bottom-right-radius: 2em;
@@ -43,11 +44,12 @@ body {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: 4em;
+    left: 3em;
     border-top-right-radius: 2em;
     border-bottom-right-radius: 2em;
     background-color: #222;
-    width:10px;
+    width:15px;
+    text-align: center;
 }
 
 .backFront{
