@@ -9,7 +9,7 @@ function main(){
             head.style.transition = "1s";
             head.style.top = "-100px";
             iconsDiv.style.transition = "1s";
-            iconsDiv.style.left = "-4em";
+            iconsDiv.style.left = "-3em";
         }
 
         if(pageYOffset < 50){
@@ -19,10 +19,11 @@ function main(){
 
     //Icons hidden
     btnHid.addEventListener("click",function(e){
-        if(iconsDiv.style.left === "-4em"){
+        if(iconsDiv.style.left === "-3em"){
             iconsDiv.style.left = "0em";
         } else {
-            iconsDiv.style.left = "-4em"
+            iconsDiv.style.transition = "1s";
+            iconsDiv.style.left = "-3em";
         }
     })
 
