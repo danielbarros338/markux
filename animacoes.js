@@ -19,20 +19,11 @@ function main(){
 
     //Icons hidden
     btnHid.addEventListener("click",function(e){
-<<<<<<< HEAD
-        if(iconsDiv.style.left === "-4em"){
-            iconsDiv.style.transition = "1s";
-            iconsDiv.style.left = "0em";
-        } else {
-            iconsDiv.style.transition = "1s";
-            iconsDiv.style.left = "-4em"
-=======
         if(iconsDiv.style.left === "-3em"){
             iconsDiv.style.left = "0em";
         } else {
             iconsDiv.style.transition = "1s";
             iconsDiv.style.left = "-3em";
->>>>>>> nova-versao
         }
     })
 
