@@ -1,4 +1,4 @@
-# MarkUx9
+# MarkUx
 #### Site responsivo feito para uma empresa de Marketing (SPA)
 
 **Em Desenvolvimento**
@@ -12,8 +12,3 @@
  
 O site consegue se adaptar a qualquer tipo de tela de dispositivos diferentes. Suas seções **Empresa**, **Visão** e **Contato** levam a posições na página referente aos seus conteúdos e funcionalidades.
 
-#### Normal
-![](https://i.imgur.com/6PpQDnF.gif)
-
-#### Responsive
-![](https://i.imgur.com/BIYPURi.gif)
