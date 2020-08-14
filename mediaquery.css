@@ -67,6 +67,18 @@
         color: #494949 !important;
         font-size: 1em;
     }
+
+    .icons {
+        height: 2rem;
+    }
+
+    .iconsMenu .icon{
+        right: 1rem;
+    }
+
+    .icon + .icon{
+        margin-top: 1rem !important;
+    }
 }
 
 @media(min-width: 640px) {
@@ -106,6 +118,14 @@
     .fontMenu {
         color: #494949 !important;
         font-size: 1.2em;
+    }
+
+    .iconsMenu .icon{
+        right: 1.4rem;
+    }
+
+    .icon + .icon{
+        margin-top: 2rem !important;
     }
 }
 
