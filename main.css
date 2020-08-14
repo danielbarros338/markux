@@ -37,7 +37,12 @@ body {
 
 .icon {
     position: relative;
+    display: block;
     right: 1.4em;
+}
+
+.icon + .icon {
+    margin-top: 2rem;
 }
 
 .btnHid {
