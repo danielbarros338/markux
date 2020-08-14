@@ -14,13 +14,12 @@ O site consegue se adaptar a qualquer tipo de tela de dispositivos diferentes. S
 
 
 ### Versão para mobile
+![](https://i.imgur.com/InXXcKn.png)
 
-![](https://imgur.com/InXXcKn)
-
-![](https://imgur.com/6qesGdN)
+![](https://i.imgur.com/6qesGdN.png)
 
 ### Versão para desktop
 
-![](https://imgur.com/mw5zsF0)
+![](https://i.imgur.com/mw5zsF0.png)
 
-![](https://imgur.com/3Si4mDe)
+![](https://i.imgur.com/3Si4mDe.png)
